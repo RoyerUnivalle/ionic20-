@@ -42,7 +42,7 @@ const routes: Routes = [
         path: 'tab4',
         component: Tab4Component,
         data: {
-          title: 'Tab 4'
+          title: 'Tab 4 '
         }
       },
       {

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
-import { Tab4Component } from '../tab4/tab4.component';
 
 const routes: Routes = [
   {
@@ -39,22 +38,15 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab4',
-        component: Tab4Component,
-        data: {
-          title: 'Tab 4'
-        }
-      },
-      {
         path: '',
-        redirectTo: '/tabs/tab3',
+        redirectTo: '/tabs/tab1',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab3',
+    redirectTo: '/tabs/tab1',
     pathMatch: 'full'
   }
 ];

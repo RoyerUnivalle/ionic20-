@@ -15,6 +15,6 @@ import { Tab4Component } from '../tab4/tab4.component';
     FormsModule,
     TabsPageRoutingModule
   ],
-  declarations: [TabsPage, Tab4Component]
+  declarations: [TabsPage,Tab4Component]
 })
 export class TabsPageModule {}
